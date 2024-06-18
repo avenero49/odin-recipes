@@ -1,0 +1,153 @@
+
+img {
+    align-items: center;
+    height: auto;
+    width: 300px;
+  }
+
+.food-title{
+    color: black;
+    background-color: yellow;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+/* 
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+  } */
+  odd {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+  }
+  
+  .adjust-font-size {
+    font-size: 24px;
+  }
+  
+  #two {
+    color: #0000ff;
+    font-size: 36px;
+  }
+  
+  /*
+      In the id selector 'four' below, we could have also
+      added a rule to set the font size to 24px.
+  
+      However, since the elements 'Number 3' and 'Number 4'
+      in the HTML file share the same font size, we reused
+      the 'adjust-font-size' class above to help reduce
+      duplicate code.
+  */
+  #four {
+    background-color: hsl(120, 100%, 75%);
+    font-weight: bold;
+  }
+
+
+.inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.fancy {
+  background-color: yellow;
+}
+
+/* Add CSS Styling */
+
+  
+  /* .avatar.distorted {
+    height: 400px;
+    width: 200px;
+  } */
+
+  .container .text {
+    background-color: yellow;
+    color: #E00000;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Below are some other possible descendant combinators:
+  
+  div p
+  div > p
+  div .text
+  .container p
+  
+  */
+
+  body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+  }
+  
+  .title {
+    background: #e3f4ff;
+  }
+  
+  .content {
+    background: #e3f4ff;
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+  }
+  
+  button {
+    background: white;
+    border: 1px solid #eee;
+  }
+  
+  /* SOLUTION */
+  
+  /* disclaimer: duplicating the selectors here isn't best practice.
+  In your solution you probably put it right inside the existing selectors,
+  which _is_ the best practice.
+  
+  We separated it out here to make it extra clear what has changed. */
+  
+  .card {
+    padding: 8px;
+  }
+  
+  .title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .content {
+    margin-bottom: 8px;
+    padding: 16px 8px;
+  }
+  
+  .button-container {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 24px;
+  }
